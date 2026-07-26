@@ -8,7 +8,7 @@
       "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
       "icon": "https://anzuseon.github.io/myeongnol-distribution/servers/Myeongnol-26.2/Myeongnol-26.2.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "zzibalworld.kro.kr",
       "minecraftVersion": "26.2",
       "mainServer": true,
       "autoconnect": false,

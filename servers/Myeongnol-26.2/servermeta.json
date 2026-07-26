@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "명선놀이터 시즌3",
     "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
-    "address": "localhost:25565",
+    "address": "zzibalworld.kro.kr",
     "mainServer": true,
     "autoconnect": false
   },
