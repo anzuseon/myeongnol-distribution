@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "rss": "https://github.com/anzuseon/myeongnol-launcher/releases.atom",
+  "servers": [
+    {
+      "id": "Myeongnol-26.2",
+      "name": "명선놀이터 시즌3",
+      "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
+      "icon": "https://anzuseon.github.io/myeongnol-distribution/servers/Myeongnol-26.2/Myeongnol-26.2.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "26.2",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://anzuseon.github.io/myeongnol-distribution/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "26.2-fabric-0.19.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2778,
+                "MD5": "632c51d1776d4c1b83a10ae9c037a65b",
+                "url": "https://anzuseon.github.io/myeongnol-distribution/repo/versions/26.2-fabric-0.19.3/26.2-fabric-0.19.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://anzuseon.github.io/myeongnol-distribution/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://anzuseon.github.io/myeongnol-distribution/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://anzuseon.github.io/myeongnol-distribution/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://anzuseon.github.io/myeongnol-distribution/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://anzuseon.github.io/myeongnol-distribution/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://anzuseon.github.io/myeongnol-distribution/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:iris:1.11.2+mc26.2@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2820763,
+            "url": "https://anzuseon.github.io/myeongnol-distribution/servers/Myeongnol-26.2/fabricmods/required/iris-fabric-1.11.2+mc26.2.jar",
+            "MD5": "11c0b0d99bf9d9cb55f9e35a2d6bb85f"
+          }
+        },
+        {
+          "id": "dev.erudites.mods:koreanify:0.1.6+mc26.1.2@jar",
+          "name": "Koreanify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65539,
+            "url": "https://anzuseon.github.io/myeongnol-distribution/servers/Myeongnol-26.2/fabricmods/required/koreanify-fabric-0.1.6+mc26.1.2.jar",
+            "MD5": "8dbb477b77ba99ea84ecc4ea8c0bed2c"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.9.1+mc26.2@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1834384,
+            "url": "https://anzuseon.github.io/myeongnol-distribution/servers/Myeongnol-26.2/fabricmods/required/sodium-fabric-0.9.1+mc26.2.jar",
+            "MD5": "12238397e6e067c00369e72999e8d163"
+          }
+        },
+        {
+          "id": "Bliss_v2.1.1.zip",
+          "name": "Bliss_v2.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1803107,
+            "url": "https://anzuseon.github.io/myeongnol-distribution/servers/Myeongnol-26.2/files/shaderpacks/Bliss_v2.1.1.zip",
+            "MD5": "16ac8a997f7ba0c5eb1cc2c140b7f77f",
+            "path": "shaderpacks/Bliss_v2.1.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "file:///C:/MyeongnolDistribution/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "https://github.com/anzuseon/myeongnol-launcher/releases.atom"
+  }
+}
