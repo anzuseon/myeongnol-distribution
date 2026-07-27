@@ -7,7 +7,7 @@
       "name": "명선놀이터 시즌3",
       "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
       "icon": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-      "version": "1.0.1",
+      "version": "1.0.5",
       "address": "zzibalworld.kro.kr",
       "minecraftVersion": "26.2",
       "mainServer": true,
@@ -96,6 +96,16 @@
           ]
         },
         {
+          "id": "generated.fabricmod:fabric-api:0.155.2+26.2@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2530080,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/fabric-api-0.155.2+26.2.jar",
+            "MD5": "83a7453404cce325eac925edc7e03b5e"
+          }
+        },
+        {
           "id": "generated.fabricmod:iris:1.11.2+mc26.2@jar",
           "name": "Iris",
           "type": "FabricMod",
@@ -116,6 +126,16 @@
           }
         },
         {
+          "id": "kr.myeongnol:myeongnol_client:0.10.2@jar",
+          "name": "Myeongnol Client",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7418069,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.10.2.jar",
+            "MD5": "07eb6189ea096dc18589f0fa8fed31ef"
+          }
+        },
+        {
           "id": "net.caffeinemc.mods:sodium:0.9.1+mc26.2@jar",
           "name": "Sodium",
           "type": "FabricMod",
@@ -126,14 +146,25 @@
           }
         },
         {
-          "id": "Bliss_v2.1.1.zip",
-          "name": "Bliss_v2.1.1.zip",
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
           "type": "File",
           "artifact": {
-            "size": 1803107,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/files/shaderpacks/Bliss_v2.1.1.zip",
-            "MD5": "16ac8a997f7ba0c5eb1cc2c140b7f77f",
-            "path": "shaderpacks/Bliss_v2.1.1.zip"
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/files/optionsshaders.txt",
+            "MD5": "0b63a097f6dcda58bdb6988bc4ebcc9c",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.8.1.zip",
+          "name": "ComplementaryUnbound_r5.8.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 546928,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/files/shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+            "MD5": "0a3553109dbe689a9f76d1aedc8f50c6",
+            "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
           }
         }
       ]

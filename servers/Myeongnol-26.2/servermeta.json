@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/MyeongnolDistribution/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.1",
+    "version": "1.0.5",
     "name": "명선놀이터 시즌3",
     "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
     "address": "zzibalworld.kro.kr",
