@@ -15,7 +15,7 @@
         "suggestedMajor": 25
       },
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.19.3",
