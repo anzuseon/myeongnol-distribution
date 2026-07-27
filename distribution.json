@@ -10,6 +10,10 @@
       "version": "1.0.5",
       "address": "zzibalworld.kro.kr",
       "minecraftVersion": "26.2",
+      "javaOptions": {
+        "supported": ">=25.x",
+        "suggestedMajor": 25
+      },
       "mainServer": true,
       "autoconnect": false,
       "modules": [
