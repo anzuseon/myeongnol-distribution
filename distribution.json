@@ -7,15 +7,11 @@
       "name": "명선놀이터 시즌3",
       "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
       "icon": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "address": "zzibalworld.kro.kr",
       "minecraftVersion": "26.2",
-      "javaOptions": {
-        "supported": ">=25.x",
-        "suggestedMajor": 25
-      },
       "mainServer": true,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.19.3",
@@ -110,6 +106,16 @@
           }
         },
         {
+          "id": "io.github.reserveword:imblocker:7.1.7@jar",
+          "name": "IMBlocker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 156915,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/IMBlocker-7.1.7-fabric-26.1+.jar",
+            "MD5": "2dde9c638c8fb1099f9435dd9aa99ea9"
+          }
+        },
+        {
           "id": "generated.fabricmod:iris:1.11.2+mc26.2@jar",
           "name": "Iris",
           "type": "FabricMod",
@@ -120,23 +126,13 @@
           }
         },
         {
-          "id": "dev.erudites.mods:koreanify:0.1.6+mc26.1.2@jar",
-          "name": "Koreanify",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 65539,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/koreanify-fabric-0.1.6+mc26.1.2.jar",
-            "MD5": "8dbb477b77ba99ea84ecc4ea8c0bed2c"
-          }
-        },
-        {
-          "id": "kr.myeongnol:myeongnol_client:0.10.2@jar",
+          "id": "kr.myeongnol:myeongnol_client:0.15.1@jar",
           "name": "Myeongnol Client",
           "type": "FabricMod",
           "artifact": {
-            "size": 7418069,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.10.2.jar",
-            "MD5": "07eb6189ea096dc18589f0fa8fed31ef"
+            "size": 15143413,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.15.1.jar",
+            "MD5": "09fabb36f1f78cac6253873806b1c499"
           }
         },
         {
