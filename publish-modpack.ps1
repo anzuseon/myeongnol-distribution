@@ -242,6 +242,11 @@ try {
     if([string]$server.version -ne $nextVersion){
         throw "Generated server version is $($server.version), expected $nextVersion."
     }
+    if(($null -eq $server.javaOptions) -or
+        ([string]$server.javaOptions.supported -ne '>=25 <26') -or
+        ([int]$server.javaOptions.suggestedMajor -ne 25)){
+        throw 'Generated distribution must require Java 25 (supported: >=25 <26, suggestedMajor: 25).'
+    }
     $checkedArtifacts = Test-DistributionArtifacts -Server $server -ServerDirectory $serverDirectory
     Write-Host "Validated $checkedArtifacts mod/file artifact(s)."
 

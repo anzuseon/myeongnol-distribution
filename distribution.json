@@ -7,11 +7,16 @@
       "name": "명선놀이터 시즌3",
       "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
       "icon": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "address": "zzibalworld.kro.kr",
       "minecraftVersion": "26.2",
       "mainServer": true,
       "autoconnect": true,
+      "javaOptions": {
+        "distribution": "TEMURIN",
+        "supported": ">=25 <26",
+        "suggestedMajor": 25
+      },
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.19.3",
