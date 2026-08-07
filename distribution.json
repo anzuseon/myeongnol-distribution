@@ -7,7 +7,7 @@
       "name": "명선놀이터 시즌3",
       "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
       "icon": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "address": "zzibalworld.kro.kr",
       "minecraftVersion": "26.2",
       "mainServer": true,
@@ -101,36 +101,6 @@
           ]
         },
         {
-          "id": "de.johni0702.minecraft:bobby:5.2.15+mc26.2@jar",
-          "name": "Bobby",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 867357,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/bobby-5.2.15+mc26.2.jar",
-            "MD5": "5f91fae552d7cdeab045ffba35922d82"
-          }
-        },
-        {
-          "id": "com.ishland:c2me:0.4.1-beta.1.0+26.2@jar",
-          "name": "Concurrent Chunk Management Engine",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 3775368,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/c2me-fabric-mc26.2-0.4.1-beta.1.0.jar",
-            "MD5": "7c87a0107ddb20aae40c5d3f578f83f6"
-          }
-        },
-        {
-          "id": "dev.tr7zw:entityculling:1.10.5@jar",
-          "name": "EntityCulling",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1583775,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/entityculling-fabric-1.10.5-mc26.2.jar",
-            "MD5": "a5386ffd224844effbbfa2e8b4784824"
-          }
-        },
-        {
           "id": "generated.fabricmod:fabric-api:0.155.2+26.2@jar",
           "name": "Fabric API",
           "type": "FabricMod",
@@ -141,16 +111,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:ferritecore:9.0.0@jar",
-          "name": "FerriteCore",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 72677,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/ferritecore-9.0.0-fabric.jar",
-            "MD5": "9d96f643cfd220b75f47c94ea56ebc2a"
-          }
-        },
-        {
           "id": "io.github.reserveword:imblocker:7.1.7@jar",
           "name": "IMBlocker",
           "type": "FabricMod",
@@ -158,16 +118,6 @@
             "size": 156915,
             "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/IMBlocker-7.1.7-fabric-26.1+.jar",
             "MD5": "2dde9c638c8fb1099f9435dd9aa99ea9"
-          }
-        },
-        {
-          "id": "generated.fabricmod:immediatelyfast:1.16.2+26.2@jar",
-          "name": "ImmediatelyFast",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 91422,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/ImmediatelyFast-Fabric-1.16.2+26.2.jar",
-            "MD5": "d7a174061600c61077e4270136de2153"
           }
         },
         {
