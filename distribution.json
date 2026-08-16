@@ -7,7 +7,7 @@
       "name": "명선놀이터 시즌3",
       "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
       "icon": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-      "version": "1.0.13",
+      "version": "1.0.14",
       "address": "zzibalworld.kro.kr",
       "minecraftVersion": "26.2",
       "mainServer": true,
@@ -101,6 +101,16 @@
           ]
         },
         {
+          "id": "enchantedfishingline:enchanted_fishing_line:1.0.0@jar",
+          "name": "Enchanted Fishing Line",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 19513,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/enchanted_fishing_line-1.0.0-fabric-26.2.jar",
+            "MD5": "0e803f1b242224ada32730945516f527"
+          }
+        },
+        {
           "id": "generated.fabricmod:fabric-api:0.155.2+26.2@jar",
           "name": "Fabric API",
           "type": "FabricMod",
@@ -151,13 +161,13 @@
           }
         },
         {
-          "id": "kr.myeongnol:myeongnol_client:0.30.0@jar",
+          "id": "kr.myeongnol:myeongnol_client:0.34.0@jar",
           "name": "Myeongnol Client",
           "type": "FabricMod",
           "artifact": {
-            "size": 14151019,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.30.0.jar",
-            "MD5": "cd186a1b46edb2585ebc218cdeeddc8a"
+            "size": 14163820,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.34.0.jar",
+            "MD5": "5c51cc488bfdee263e2c32c7b1bfdeea"
           }
         },
         {
