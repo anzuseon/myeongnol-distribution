@@ -7,7 +7,7 @@
       "name": "명선놀이터 시즌3",
       "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
       "icon": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-      "version": "1.0.23",
+      "version": "1.0.24",
       "address": "zzibalworld.kro.kr",
       "minecraftVersion": "26.2",
       "mainServer": true,
@@ -161,13 +161,13 @@
           }
         },
         {
-          "id": "kr.myeongnol:myeongnol_client:0.42.1@jar",
+          "id": "kr.myeongnol:myeongnol_client:0.44.0@jar",
           "name": "Myeongnol Client",
           "type": "FabricMod",
           "artifact": {
-            "size": 16647909,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.42.1.jar",
-            "MD5": "11e8a394826c752c24491d20214f6312"
+            "size": 16652321,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.44.0.jar",
+            "MD5": "9da3b3edab377105775801db1bb82565"
           }
         },
         {
