@@ -7,7 +7,7 @@
       "name": "명선놀이터 시즌3",
       "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
       "icon": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-      "version": "1.0.34",
+      "version": "1.0.35",
       "address": "zzibalworld.kro.kr",
       "minecraftVersion": "26.2",
       "mainServer": true,
@@ -131,13 +131,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.11.2+mc26.2@jar",
+          "id": "generated.fabricmod:iris:1.11.4+mc26.2@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2820763,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/iris-fabric-1.11.2+mc26.2.jar",
-            "MD5": "11c0b0d99bf9d9cb55f9e35a2d6bb85f"
+            "size": 2821616,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/iris-fabric-1.11.4+mc26.2.jar",
+            "MD5": "267fa2e0f6994162f8dbde33d54dc2ce"
           }
         },
         {
@@ -171,13 +171,13 @@
           }
         },
         {
-          "id": "net.caffeinemc.mods:sodium:0.9.1+mc26.2@jar",
+          "id": "net.caffeinemc.mods:sodium:0.9.2+mc26.2@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 1834384,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/sodium-fabric-0.9.1+mc26.2.jar",
-            "MD5": "12238397e6e067c00369e72999e8d163"
+            "size": 1885572,
+            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/sodium-fabric-0.9.2+mc26.2.jar",
+            "MD5": "fa97af208c24e320899c00cd0cff698a"
           }
         },
         {
