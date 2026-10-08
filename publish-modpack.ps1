@@ -150,9 +150,15 @@ try {
     $pendingServerChanges = @(& git status --porcelain --untracked-files=all -- "servers/$ServerId")
     Assert-LastExitCode 'Checking server changes'
     $largeArtifactChanges = Test-LargeArtifactChanges -ServerDirectory $serverDirectory -DistributionPath $distributionPath -ServerId $ServerId
-    if($pendingServerChanges.Count -eq 0 -and -not $largeArtifactChanges -and -not $Force){
+    $unpublishedCount = [int]((& git rev-list --count "origin/$branch..HEAD").Trim())
+    Assert-LastExitCode 'Checking pending publish commits'
+    if($pendingServerChanges.Count -eq 0 -and -not $largeArtifactChanges -and -not $Force -and $unpublishedCount -eq 0){
         Write-Host 'No modpack changes were found. Nothing was published.' -ForegroundColor Yellow
         exit 0
+    }
+    if($pendingServerChanges.Count -eq 0 -and -not $largeArtifactChanges -and $unpublishedCount -gt 0 -and -not $Force){
+        Write-Host 'Retrying pending publication without increasing the server version.' -ForegroundColor Yellow
+        $Bump = 'none'
     }
 
     $meta = Get-Content -LiteralPath $serverMetaPath -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -289,9 +295,17 @@ try {
 
     & git diff --cached --quiet
     if($LASTEXITCODE -eq 0){
+        if(-not $NoPush){
+            Write-Step "Pushing pending commits to origin/$branch"
+            & git push origin $branch
+            Assert-LastExitCode 'Pushing pending Git commits'
+            Write-Host 'Pending publication completed successfully.' -ForegroundColor Green
+            exit 0
+        }
         Write-Host 'No publishable changes remained after generation.' -ForegroundColor Yellow
         exit 0
     }
+    if($LASTEXITCODE -ne 1){ Assert-LastExitCode 'Comparing staged changes' }
 
     if([string]::IsNullOrWhiteSpace($CommitMessage)){
         $CommitMessage = "Update $ServerId modpack to $nextVersion"
