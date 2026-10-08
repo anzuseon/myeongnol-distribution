@@ -1,208 +1,218 @@
 {
-  "version": "1.0.0",
-  "rss": "https://github.com/anzuseon/myeongnol-launcher/releases.atom",
-  "servers": [
-    {
-      "id": "Myeongnol-26.2",
-      "name": "명선놀이터 시즌3",
-      "description": "Minecraft 26.2 · Fabric 0.19.3 · Iris",
-      "icon": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-      "version": "1.0.35",
-      "address": "zzibalworld.kro.kr",
-      "minecraftVersion": "26.2",
-      "mainServer": true,
-      "autoconnect": true,
-      "javaOptions": {
-        "distribution": "TEMURIN",
-        "supported": ">=25 <26",
-        "suggestedMajor": 25
-      },
-      "modules": [
-        {
-          "id": "net.fabricmc:fabric-loader:0.19.3",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
-          "artifact": {
-            "size": 1976502,
-            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
-          },
-          "subModules": [
-            {
-              "id": "26.2-fabric-0.19.3",
-              "name": "Fabric (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 2778,
-                "MD5": "632c51d1776d4c1b83a10ae9c037a65b",
-                "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/versions/26.2-fabric-0.19.3/26.2-fabric-0.19.3.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.10.1",
-              "name": "Fabric (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 126151,
-                "MD5": "9cb72080438acf27f2607002e1444a7b",
-                "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.10.1",
-              "name": "Fabric (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 35140,
-                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
-                "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.10.1",
-              "name": "Fabric (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 74840,
-                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
-                "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.10.1",
-              "name": "Fabric (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51958,
-                "MD5": "62541e1dc62331408ef31317555bf4fa",
-                "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.10.1",
-              "name": "Fabric (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 95628,
-                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
-                "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
-              "name": "Fabric (sponge-mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1540060,
-                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
-                "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "enchantedfishingline:enchanted_fishing_line:1.0.0@jar",
-          "name": "Enchanted Fishing Line",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 19513,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/enchanted_fishing_line-1.0.0-fabric-26.2.jar",
-            "MD5": "0e803f1b242224ada32730945516f527"
-          }
-        },
-        {
-          "id": "generated.fabricmod:fabric-api:0.155.2+26.2@jar",
-          "name": "Fabric API",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2530080,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/fabric-api-0.155.2+26.2.jar",
-            "MD5": "83a7453404cce325eac925edc7e03b5e"
-          }
-        },
-        {
-          "id": "io.github.reserveword:imblocker:7.1.7@jar",
-          "name": "IMBlocker",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 156915,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/IMBlocker-7.1.7-fabric-26.1+.jar",
-            "MD5": "2dde9c638c8fb1099f9435dd9aa99ea9"
-          }
-        },
-        {
-          "id": "generated.fabricmod:iris:1.11.4+mc26.2@jar",
-          "name": "Iris",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2821616,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/iris-fabric-1.11.4+mc26.2.jar",
-            "MD5": "267fa2e0f6994162f8dbde33d54dc2ce"
-          }
-        },
-        {
-          "id": "journeymap:journeymap:26.2-6.0.2@jar",
-          "name": "Journeymap",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 4195813,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/journeymap-fabric-26.2-6.0.2.jar",
-            "MD5": "e2455f42c397dea6ef05551e733cc514"
-          }
-        },
-        {
-          "id": "net.caffeinemc.mods:lithium:0.25.3+mc26.2@jar",
-          "name": "Lithium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 912850,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/lithium-fabric-0.25.3+mc26.2.jar",
-            "MD5": "ee8279ea831c40de6ab0a5a8c52370c9"
-          }
-        },
-        {
-          "id": "kr.myeongnol:myeongnol_client:0.90.32-SNAPSHOT@jar",
-          "name": "Myeongnol Client",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 40449852,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.90.32-SNAPSHOT.jar",
-            "MD5": "cf1a7ee4e00ef463d386ddeee9b55025"
-          }
-        },
-        {
-          "id": "net.caffeinemc.mods:sodium:0.9.2+mc26.2@jar",
-          "name": "Sodium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1885572,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/sodium-fabric-0.9.2+mc26.2.jar",
-            "MD5": "fa97af208c24e320899c00cd0cff698a"
-          }
-        },
-        {
-          "id": "optionsshaders.txt",
-          "name": "optionsshaders.txt",
-          "type": "File",
-          "artifact": {
-            "size": 42,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/files/optionsshaders.txt",
-            "MD5": "0b63a097f6dcda58bdb6988bc4ebcc9c",
-            "path": "optionsshaders.txt"
-          }
-        },
-        {
-          "id": "ComplementaryUnbound_r5.8.1.zip",
-          "name": "ComplementaryUnbound_r5.8.1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 546928,
-            "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/files/shaderpacks/ComplementaryUnbound_r5.8.1.zip",
-            "MD5": "0a3553109dbe689a9f76d1aedc8f50c6",
-            "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
-          }
-        }
-      ]
-    }
-  ]
+    "version":  "1.0.0",
+    "rss":  "https://github.com/anzuseon/myeongnol-launcher/releases.atom",
+    "servers":  [
+                    {
+                        "id":  "Myeongnol-26.2",
+                        "name":  "명선놀이터 시즌3",
+                        "description":  "Minecraft 26.2 · Fabric 0.19.3 · Iris",
+                        "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
+                        "version":  "1.0.38",
+                        "address":  "zzibalworld.kro.kr",
+                        "minecraftVersion":  "26.2",
+                        "mainServer":  true,
+                        "autoconnect":  true,
+                        "javaOptions":  {
+                                            "distribution":  "TEMURIN",
+                                            "supported":  "\u003e=25 \u003c26",
+                                            "suggestedMajor":  25
+                                        },
+                        "modules":  [
+                                        {
+                                            "id":  "net.fabricmc:fabric-loader:0.19.3",
+                                            "name":  "Fabric (fabric-loader)",
+                                            "type":  "Fabric",
+                                            "artifact":  {
+                                                             "size":  1976502,
+                                                             "MD5":  "881e0e9f53a11b9ad468b47afd678bfd",
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+                                                         },
+                                            "subModules":  [
+                                                               {
+                                                                   "id":  "26.2-fabric-0.19.3",
+                                                                   "name":  "Fabric (version.json)",
+                                                                   "type":  "VersionManifest",
+                                                                   "artifact":  {
+                                                                                    "size":  2778,
+                                                                                    "MD5":  "632c51d1776d4c1b83a10ae9c037a65b",
+                                                                                    "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/versions/26.2-fabric-0.19.3/26.2-fabric-0.19.3.json"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm:9.10.1",
+                                                                   "name":  "Fabric (asm)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  126151,
+                                                                                    "MD5":  "9cb72080438acf27f2607002e1444a7b",
+                                                                                    "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-analysis:9.10.1",
+                                                                   "name":  "Fabric (asm-analysis)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  35140,
+                                                                                    "MD5":  "6dd9011ec87f65e4b2e14e938c4118e4",
+                                                                                    "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-commons:9.10.1",
+                                                                   "name":  "Fabric (asm-commons)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  74840,
+                                                                                    "MD5":  "8eee0b1bdd046baf472eb83dd5e6bb44",
+                                                                                    "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-tree:9.10.1",
+                                                                   "name":  "Fabric (asm-tree)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  51958,
+                                                                                    "MD5":  "62541e1dc62331408ef31317555bf4fa",
+                                                                                    "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-util:9.10.1",
+                                                                   "name":  "Fabric (asm-util)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  95628,
+                                                                                    "MD5":  "d0892ecb209867805e7d2418e5dc6c42",
+                                                                                    "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+                                                                   "name":  "Fabric (sponge-mixin)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  1540060,
+                                                                                    "MD5":  "87002a5fc9faa1543bf4204f8d5876fb",
+                                                                                    "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+                                                                                }
+                                                               }
+                                                           ]
+                                        },
+                                        {
+                                            "id":  "enchantedfishingline:enchanted_fishing_line:1.0.0@jar",
+                                            "name":  "Enchanted Fishing Line",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  19513,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/enchanted_fishing_line-1.0.0-fabric-26.2.jar",
+                                                             "MD5":  "0e803f1b242224ada32730945516f527"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "generated.fabricmod:fabric-api:0.155.2+26.2@jar",
+                                            "name":  "Fabric API",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2530080,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/fabric-api-0.155.2+26.2.jar",
+                                                             "MD5":  "83a7453404cce325eac925edc7e03b5e"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "io.github.reserveword:imblocker:7.1.7@jar",
+                                            "name":  "IMBlocker",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  156915,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/IMBlocker-7.1.7-fabric-26.1+.jar",
+                                                             "MD5":  "2dde9c638c8fb1099f9435dd9aa99ea9"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "generated.fabricmod:iris:1.11.4+mc26.2@jar",
+                                            "name":  "Iris",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2821616,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/iris-fabric-1.11.4+mc26.2.jar",
+                                                             "MD5":  "267fa2e0f6994162f8dbde33d54dc2ce"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "journeymap:journeymap:26.2-6.0.2@jar",
+                                            "name":  "Journeymap",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  4195813,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/journeymap-fabric-26.2-6.0.2.jar",
+                                                             "MD5":  "e2455f42c397dea6ef05551e733cc514"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.caffeinemc.mods:lithium:0.25.3+mc26.2@jar",
+                                            "name":  "Lithium",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  912850,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/lithium-fabric-0.25.3+mc26.2.jar",
+                                                             "MD5":  "ee8279ea831c40de6ab0a5a8c52370c9"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kr.myeongnol:myeongnol_client:0.90.90-SNAPSHOT@jar",
+                                            "name":  "Myeongnol Client",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  110629019,
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-7524bd7724beb4fe820b167cb314b1b8a8959ce58f8483d7a74f4d193fd8bd90/myeongnol-client-0.90.90-SNAPSHOT.jar",
+                                                             "MD5":  "645cd91a0f7fe15e0a969fe282ca4f8c"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kr.myeongnol.picta:picta_raid:0.1.7-SNAPSHOT@jar",
+                                            "name":  "Picta Raid Client",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  30673058,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/picta-raid-client-0.1.7-SNAPSHOT.jar",
+                                                             "MD5":  "d8e775eaca125c239820782435543892"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.caffeinemc.mods:sodium:0.9.2+mc26.2@jar",
+                                            "name":  "Sodium",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1885572,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/sodium-fabric-0.9.2+mc26.2.jar",
+                                                             "MD5":  "fa97af208c24e320899c00cd0cff698a"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "optionsshaders.txt",
+                                            "name":  "optionsshaders.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  42,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/files/optionsshaders.txt",
+                                                             "MD5":  "0b63a097f6dcda58bdb6988bc4ebcc9c",
+                                                             "path":  "optionsshaders.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "ComplementaryUnbound_r5.8.1.zip",
+                                            "name":  "ComplementaryUnbound_r5.8.1.zip",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  546928,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/files/shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+                                                             "MD5":  "0a3553109dbe689a9f76d1aedc8f50c6",
+                                                             "path":  "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
+                                                         }
+                                        }
+                                    ]
+                    }
+                ]
 }

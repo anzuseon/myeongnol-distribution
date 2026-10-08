@@ -4,3 +4,5 @@ schemas/
 set-server-address.ps1
 README-SETUP.md
 servers/Myeongnol-26.2/fabricmods/required/mods/
+
+/servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.90.90-SNAPSHOT.jar
