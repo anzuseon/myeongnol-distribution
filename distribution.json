@@ -7,7 +7,7 @@
                         "name":  "명선놀이터 시즌3",
                         "description":  "Minecraft 26.2 · Fabric 0.19.3 · Iris",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-                        "version":  "1.0.38",
+                        "version":  "1.0.39",
                         "address":  "zzibalworld.kro.kr",
                         "minecraftVersion":  "26.2",
                         "mainServer":  true,
@@ -158,26 +158,6 @@
                                                              "size":  912850,
                                                              "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/lithium-fabric-0.25.3+mc26.2.jar",
                                                              "MD5":  "ee8279ea831c40de6ab0a5a8c52370c9"
-                                                         }
-                                        },
-                                        {
-                                            "id":  "kr.myeongnol:myeongnol_client:0.90.90-SNAPSHOT@jar",
-                                            "name":  "Myeongnol Client",
-                                            "type":  "FabricMod",
-                                            "artifact":  {
-                                                             "size":  110629019,
-                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-7524bd7724beb4fe820b167cb314b1b8a8959ce58f8483d7a74f4d193fd8bd90/myeongnol-client-0.90.90-SNAPSHOT.jar",
-                                                             "MD5":  "645cd91a0f7fe15e0a969fe282ca4f8c"
-                                                         }
-                                        },
-                                        {
-                                            "id":  "kr.myeongnol.picta:picta_raid:0.1.7-SNAPSHOT@jar",
-                                            "name":  "Picta Raid Client",
-                                            "type":  "FabricMod",
-                                            "artifact":  {
-                                                             "size":  30673058,
-                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/picta-raid-client-0.1.7-SNAPSHOT.jar",
-                                                             "MD5":  "d8e775eaca125c239820782435543892"
                                                          }
                                         },
                                         {
