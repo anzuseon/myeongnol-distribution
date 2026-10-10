@@ -7,7 +7,7 @@
                         "name":  "명선놀이터 시즌3",
                         "description":  "Minecraft 26.2 · Fabric 0.19.3 · Iris",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-                        "version":  "1.0.40",
+                        "version":  "1.0.41",
                         "address":  "zzibalworld.kro.kr",
                         "minecraftVersion":  "26.2",
                         "mainServer":  true,
@@ -178,6 +178,16 @@
                                                              "size":  1885572,
                                                              "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/sodium-fabric-0.9.2+mc26.2.jar",
                                                              "MD5":  "fa97af208c24e320899c00cd0cff698a"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "de.maxhenkel:voicechat:2.6.22+26.2@jar",
+                                            "name":  "Simple Voice Chat",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  5576838,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/voicechat-fabric-2.6.22+26.2.jar",
+                                                             "MD5":  "d03915bf7cc90357040396f5b6dccc64"
                                                          }
                                         },
                                         {
