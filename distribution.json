@@ -7,7 +7,7 @@
                         "name":  "명선놀이터 시즌3",
                         "description":  "Minecraft 26.2 · Fabric 0.19.3 · Iris",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-                        "version":  "1.0.46",
+                        "version":  "1.0.47",
                         "address":  "zzibalworld.kro.kr",
                         "minecraftVersion":  "26.2",
                         "mainServer":  true,
@@ -168,6 +168,26 @@
                                                              "size":  276144387,
                                                              "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-f97bb8b5040b9fea3378fb1b266af7be8f9cc45488401cc213b9535d39d61ef7/myeongnol-client-0.90.130-SNAPSHOT.jar",
                                                              "MD5":  "2cc580112a36c423dd122efb6e95a064"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "kr.myeongnol:myeongnol_client:0.90.131-SNAPSHOT@jar",
+                                            "name":  "Myeongnol Client",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  277987369,
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-91419b61ac32628ed51aa7c19ad50825cb1a65b61b470bd0eb69bbbaf47675a2/myeongnol-client-0.90.131-SNAPSHOT.jar",
+                                                             "MD5":  "6d9610ab6a417cb30464c714d9fb3c18"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "generated.fabricmod:plasmovoice:Paper-2.1.17@jar",
+                                            "name":  "PlasmoVoice",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  9117397,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/PlasmoVoice-Paper-2.1.17.jar",
+                                                             "MD5":  "d7549c2f08a598f9c8a77433cc279b73"
                                                          }
                                         },
                                         {
