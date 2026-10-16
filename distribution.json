@@ -7,7 +7,7 @@
                         "name":  "명선놀이터 시즌3",
                         "description":  "Minecraft 26.2 · Fabric 0.19.3 · Iris",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-                        "version":  "1.0.50",
+                        "version":  "1.0.51",
                         "address":  "zzibalworld.kro.kr",
                         "minecraftVersion":  "26.2",
                         "mainServer":  true,
@@ -121,16 +121,6 @@
                                                          }
                                         },
                                         {
-                                            "id":  "io.github.reserveword:imblocker:7.1.7@jar",
-                                            "name":  "IMBlocker",
-                                            "type":  "FabricMod",
-                                            "artifact":  {
-                                                             "size":  156915,
-                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/IMBlocker-7.1.7-fabric-26.1+.jar",
-                                                             "MD5":  "2dde9c638c8fb1099f9435dd9aa99ea9"
-                                                         }
-                                        },
-                                        {
                                             "id":  "generated.fabricmod:iris:1.11.4+mc26.2@jar",
                                             "name":  "Iris",
                                             "type":  "FabricMod",
@@ -148,6 +138,16 @@
                                                              "size":  4195813,
                                                              "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/journeymap-fabric-26.2-6.0.2.jar",
                                                              "MD5":  "e2455f42c397dea6ef05551e733cc514"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.erudites.mods:koreanify:0.1.12+mc26.1.2@jar",
+                                            "name":  "Koreanify",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  88166,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/koreanify-fabric-0.1.12+mc26.1.2.jar",
+                                                             "MD5":  "e0063a7fe1df01990291a03b30cefbc3"
                                                          }
                                         },
                                         {
@@ -171,13 +171,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "su.plo.voice:plasmovoice:2.1.17@jar",
-                                            "name":  "Plasmo Voice",
+                                            "id":  "su.plo.voice:plasmovoice:2.1.17+myeongnol.3@jar",
+                                            "name":  "Plasmo Voice · 명놀 파티",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  12247451,
-                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/plasmovoice-fabric-26.2-2.1.17.jar",
-                                                             "MD5":  "91dead85f43a5bf70858bd65ea93e7d2"
+                                                             "size":  12276367,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/plasmovoice-fabric-26.2-2.1.17+myeongnol.3.jar",
+                                                             "MD5":  "26b90f1d61700e08b6c1c4b282de73b8"
                                                          }
                                         },
                                         {
