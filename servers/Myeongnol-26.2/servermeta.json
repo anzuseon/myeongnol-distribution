@@ -1,9 +1,9 @@
 {
     "$schema":  "file:///C:/MyeongnolDistribution/schemas/ServerMetaSchema.schema.json",
     "meta":  {
-                 "version":  "1.0.52",
+                 "version":  "1.0.53",
                  "name":  "명선놀이터 시즌3",
-                 "description":  "Minecraft 26.2 · Fabric 0.19.3 · Iris",
+                 "description":  "Minecraft 26.2 · Fabric 0.19.5 · Iris",
                  "address":  "zzibalworld.kro.kr",
                  "mainServer":  true,
                  "autoconnect":  true,
@@ -14,7 +14,7 @@
                                  }
              },
     "fabric":  {
-                   "version":  "0.19.3"
+                   "version":  "0.19.5"
                },
     "untrackedFiles":  [
 
