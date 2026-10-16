@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
-  "background": {
-    "url": "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/launcher/backgrounds/3bcd18bc572e7b69f0589fd13372969804efa9182aac511b0e9bfcd6885e9953.png",
-    "sha256": "3bcd18bc572e7b69f0589fd13372969804efa9182aac511b0e9bfcd6885e9953"
-  }
+    "schemaVersion":  1,
+    "background":  {
+                       "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/launcher/backgrounds/549cee8e3dd77c9038d640ad5314e7d92acb8a077a108d85ac5e7cd70d1855dc.png",
+                       "sha256":  "549cee8e3dd77c9038d640ad5314e7d92acb8a077a108d85ac5e7cd70d1855dc"
+                   }
 }
