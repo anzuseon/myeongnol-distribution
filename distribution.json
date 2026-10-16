@@ -7,7 +7,7 @@
                         "name":  "명선놀이터 시즌3",
                         "description":  "Minecraft 26.2 · Fabric 0.19.5 · Iris",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-                        "version":  "1.0.54",
+                        "version":  "1.0.55",
                         "address":  "zzibalworld.kro.kr",
                         "minecraftVersion":  "26.2",
                         "mainServer":  true,
@@ -161,23 +161,23 @@
                                                          }
                                         },
                                         {
-                                            "id":  "kr.myeongnol:myeongnol_client:0.90.132-SNAPSHOT@jar",
+                                            "id":  "kr.myeongnol:myeongnol_client:0.90.133-SNAPSHOT@jar",
                                             "name":  "Myeongnol Client",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  278010966,
-                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-81685773493a047b9b1dcf78cbb0f55e64af28b82bd330f4dac18bd046b6879c/myeongnol-client-0.90.132-SNAPSHOT.jar",
-                                                             "MD5":  "16c64a41dbdb81aab9e9cf5db82db2f6"
+                                                             "size":  278177785,
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-9ffa9e843460675fd95d961cf2a43e3ddf9c2a3ca381b2cae245183e1d09f4cc/myeongnol-client-0.90.133-SNAPSHOT.jar",
+                                                             "MD5":  "b60f3937b92572ca41af3ace68271b4e"
                                                          }
                                         },
                                         {
-                                            "id":  "kr.myeongnol.objects:myeongnol_objects:0.1.4@jar",
+                                            "id":  "kr.myeongnol.objects:myeongnol_objects:0.1.5@jar",
                                             "name":  "Myeongnol Objects",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  3082838,
-                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/myeongnol-objects-0.1.4.jar",
-                                                             "MD5":  "023d83d09e1f6ce0996c73779eb104f4"
+                                                             "size":  2322336,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/myeongnol-objects-0.1.5.jar",
+                                                             "MD5":  "03850993e2163256f480b44f472344d7"
                                                          }
                                         },
                                         {
