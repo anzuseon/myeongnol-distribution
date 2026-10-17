@@ -7,7 +7,7 @@
                         "name":  "명선놀이터 시즌3",
                         "description":  "Minecraft 26.2 · Fabric 0.19.5 · Iris",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-                        "version":  "1.0.56",
+                        "version":  "1.0.57",
                         "address":  "zzibalworld.kro.kr",
                         "minecraftVersion":  "26.2",
                         "mainServer":  true,
@@ -101,6 +101,16 @@
                                                            ]
                                         },
                                         {
+                                            "id":  "io.github.kosmx.emotes:emotecraft:3.4.0-b.build.170@jar",
+                                            "name":  "Emotecraft",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1835360,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/emotecraft-for-MC26.2-3.4.0-b.build.170.jar",
+                                                             "MD5":  "2854e9952465e340e64f393408768be4"
+                                                         }
+                                        },
+                                        {
                                             "id":  "enchantedfishingline:enchanted_fishing_line:1.0.0@jar",
                                             "name":  "Enchanted Fishing Line",
                                             "type":  "FabricMod",
@@ -161,13 +171,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "kr.myeongnol:myeongnol_client:0.90.134-SNAPSHOT@jar",
+                                            "id":  "kr.myeongnol:myeongnol_client:0.90.136-SNAPSHOT@jar",
                                             "name":  "Myeongnol Client",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  282389355,
-                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-a3b76a291c03f5b154e6c5d7a1f77f800ae83796160636a343d2c8c3fb4533e7/myeongnol-client-0.90.134-SNAPSHOT.jar",
-                                                             "MD5":  "4d2b4d369e092bcaeec3f2719f00dd2d"
+                                                             "size":  282183855,
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-8e4c3ab2c840587ec1c1229d07b2a04943db3fbde96d4d5893e6a55ef01e0f4d/myeongnol-client-0.90.136-SNAPSHOT.jar",
+                                                             "MD5":  "bd1a838d8fd2842f57e3bde59a95b781"
                                                          }
                                         },
                                         {
@@ -188,6 +198,16 @@
                                                              "size":  12276367,
                                                              "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/plasmovoice-fabric-26.2-2.1.17+myeongnol.3.jar",
                                                              "MD5":  "26b90f1d61700e08b6c1c4b282de73b8"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "com.zigythebird.playeranim:player_animation_library:1.2.8+mc.26.2@jar",
+                                            "name":  "Player Animation Library",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  420246,
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/fabricmods/required/PlayerAnimationLibMerged-1.2.8+mc.26.2.jar",
+                                                             "MD5":  "74d8d3174ad6ccfda791491c48404252"
                                                          }
                                         },
                                         {
