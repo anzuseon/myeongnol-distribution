@@ -7,7 +7,7 @@
                         "name":  "명선놀이터 시즌3",
                         "description":  "Minecraft 26.2 · Fabric 0.19.5 · Iris",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-                        "version":  "1.0.70",
+                        "version":  "1.0.71",
                         "address":  "zzibalworld.kro.kr",
                         "minecraftVersion":  "26.2",
                         "mainServer":  true,
@@ -171,13 +171,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "kr.myeongnol:myeongnol_client:0.90.161-SNAPSHOT@jar",
+                                            "id":  "kr.myeongnol:myeongnol_client:0.90.162-SNAPSHOT@jar",
                                             "name":  "Myeongnol Client",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  239468567,
-                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-e0f9dbf2a58f2bd52793a3633f9356a81da2752ac08aea53c758ec8967085793/myeongnol-client-0.90.161-SNAPSHOT.jar",
-                                                             "MD5":  "fbd5334594a0a161e02c406c91fd9c55"
+                                                             "size":  243082166,
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-8fdcdccbb90ff64bdf60bffc164889411adea08c81a780f4b876f90019be89f8/myeongnol-client-0.90.162-SNAPSHOT.jar",
+                                                             "MD5":  "32b62299ee0fe1fc93537458148c1590"
                                                          }
                                         },
                                         {
