@@ -239,7 +239,7 @@
                         "name":  "명선놀이터 시즌3 · 26.3 테스트",
                         "description":  "Minecraft 26.3 · Fabric 0.19.5",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/server-icon-c54d762b7541aa51.png",
-                        "version":  "1.0.2",
+                        "version":  "1.0.3",
                         "address":  "zzibalworld.kro.kr:25565",
                         "minecraftVersion":  "26.3",
                         "mainServer":  true,
@@ -462,6 +462,17 @@
                                                              "size":  546928,
                                                              "MD5":  "0a3553109dbe689a9f76d1aedc8f50c6",
                                                              "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/files/shaderpacks/ComplementaryUnbound_r5.8.1.zip"
+                                                         }
+                                        },
+                                        {
+                                            "id":  ".myeongnol/game-defaults.json",
+                                            "name":  "game-defaults.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "path":  ".myeongnol/game-defaults.json",
+                                                             "size":  239,
+                                                             "MD5":  "95c73f4cac5172b4f4c89ecce3da3fda",
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/files/.myeongnol/game-defaults.json"
                                                          }
                                         }
                                     ]
