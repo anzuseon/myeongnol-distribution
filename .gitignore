@@ -58,3 +58,11 @@ servers/Myeongnol-26.2/fabricmods/required/mods/
 /servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.90.162-SNAPSHOT.jar
 
 /servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.90.163-SNAPSHOT.jar
+
+# Local manager backups, logs and preview state
+/.manager/
+
+# Locally built launcher installers
+/launcher-updates/
+
+/servers/Myeongnol-Test-26.3/fabricmods/required/myeongnol-client-0.90.170-SNAPSHOT-mc26.3.jar
