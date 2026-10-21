@@ -239,7 +239,7 @@
                         "name":  "명선놀이터 시즌3 · 26.3 테스트",
                         "description":  "Minecraft 26.3 · Fabric 0.19.5",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/server-icon-c54d762b7541aa51.png",
-                        "version":  "1.0.4",
+                        "version":  "1.0.5",
                         "address":  "zzibalworld.kro.kr:25565",
                         "minecraftVersion":  "26.3",
                         "mainServer":  true,
@@ -267,7 +267,7 @@
                                                                    "artifact":  {
                                                                                     "size":  2778,
                                                                                     "MD5":  "0492c575c7de9895288f6e0a987c6dbe",
-                                                                                    "url":  "myeongnol-test-asset://26.3-fabric-0.19.5.json"
+                                                                                    "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/repo/versions/26.3-fabric-0.19.5/26.3-fabric-0.19.5.json"
                                                                                 }
                                                                },
                                                                {
