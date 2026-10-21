@@ -239,7 +239,7 @@
                         "name":  "명선놀이터 시즌3 · 26.3 테스트",
                         "description":  "Minecraft 26.3 · Fabric 0.19.5",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/server-icon-c54d762b7541aa51.png",
-                        "version":  "1.0.3",
+                        "version":  "1.0.4",
                         "address":  "zzibalworld.kro.kr:25565",
                         "minecraftVersion":  "26.3",
                         "mainServer":  true,
@@ -403,16 +403,6 @@
                                                          }
                                         },
                                         {
-                                            "id":  "generated.fabricmod:myeongnol_client:0.90.170-SNAPSHOT@jar",
-                                            "name":  "Myeongnol Client",
-                                            "type":  "FabricMod",
-                                            "artifact":  {
-                                                             "size":  239609532,
-                                                             "MD5":  "a5423df8d8a76417cbde57e957782a58",
-                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-815cc11b2b72a6af25044688727c42a43707a7cfcb562df93452953552e895d7/myeongnol-client-0.90.170-SNAPSHOT-mc26.3.jar"
-                                                         }
-                                        },
-                                        {
                                             "id":  "generated.fabricmod:plasmovoice:2.1.17+myeongnol.6@jar",
                                             "name":  "Plasmo Voice · 명놀 파티",
                                             "type":  "FabricMod",
@@ -443,6 +433,16 @@
                                                          }
                                         },
                                         {
+                                            "id":  "generated.fabricmod:myeongnol_client:0.90.175-SNAPSHOT@jar",
+                                            "name":  "Myeongnol Client",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  252251612,
+                                                             "MD5":  "d934a01a3afb7ca43a92cc6ca85d9ecf",
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-a0fd59d0e74339feead8d45b7d7b0c1935279bbf3da42ace6c95ff9b10422350/myeongnol-client-0.90.175-SNAPSHOT-mc26.3.jar"
+                                                         }
+                                        },
+                                        {
                                             "id":  "optionsshaders.txt",
                                             "name":  "optionsshaders.txt",
                                             "type":  "File",
@@ -454,17 +454,6 @@
                                                          }
                                         },
                                         {
-                                            "id":  "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
-                                            "name":  "ComplementaryUnbound_r5.8.1.zip",
-                                            "type":  "File",
-                                            "artifact":  {
-                                                             "path":  "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
-                                                             "size":  546928,
-                                                             "MD5":  "0a3553109dbe689a9f76d1aedc8f50c6",
-                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/files/shaderpacks/ComplementaryUnbound_r5.8.1.zip"
-                                                         }
-                                        },
-                                        {
                                             "id":  ".myeongnol/game-defaults.json",
                                             "name":  "game-defaults.json",
                                             "type":  "File",
@@ -473,6 +462,17 @@
                                                              "size":  239,
                                                              "MD5":  "95c73f4cac5172b4f4c89ecce3da3fda",
                                                              "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/files/.myeongnol/game-defaults.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+                                            "name":  "ComplementaryUnbound_r5.8.1.zip",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "path":  "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+                                                             "size":  546928,
+                                                             "MD5":  "0a3553109dbe689a9f76d1aedc8f50c6",
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/files/shaderpacks/ComplementaryUnbound_r5.8.1.zip"
                                                          }
                                         }
                                     ]
