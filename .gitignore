@@ -78,3 +78,5 @@ servers/Myeongnol-26.2/fabricmods/required/mods/
 # Version-specific underwater fog fix clients
 /servers/Myeongnol-26.2/fabricmods/required/myeongnol-client-0.90.177-SNAPSHOT-mc26.2.jar
 /servers/Myeongnol-Test-26.3/fabricmods/required/myeongnol-client-0.90.177-SNAPSHOT-mc26.3.jar
+
+/servers/Myeongnol-Test-26.3/fabricmods/required/myeongnol-client-0.90.178-SNAPSHOT-mc26.3.jar
