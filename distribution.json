@@ -7,7 +7,7 @@
                         "name":  "명선놀이터 시즌3",
                         "description":  "Minecraft 26.2 · Fabric 0.19.5 · Iris",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-26.2/Myeongnol-26.2.png",
-                        "version":  "1.0.75",
+                        "version":  "1.0.76",
                         "address":  "zzibalworld.kro.kr",
                         "minecraftVersion":  "26.2",
                         "mainServer":  false,
@@ -171,13 +171,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "kr.myeongnol:myeongnol_client:0.90.176-SNAPSHOT@jar",
+                                            "id":  "kr.myeongnol:myeongnol_client:0.90.177-SNAPSHOT@jar",
                                             "name":  "Myeongnol Client",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  252626450,
-                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-2b341b35032f1a04f6f3d6ba31319470f397c02cf79a9b4d1715329eccb8b197/myeongnol-client-0.90.176-SNAPSHOT-mc26.2.jar",
-                                                             "MD5":  "9b041cb9ff75acc376a42d6b1b848849"
+                                                             "size":  252626456,
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-5d47b7f47bfe91c9fe5745f3d69078c0b8bdd3a6ef41ba5aa0f8ff3c4c2b2d6b/myeongnol-client-0.90.177-SNAPSHOT-mc26.2.jar",
+                                                             "MD5":  "17165a535e1b047f361f90c102fd3a2c"
                                                          }
                                         },
                                         {
@@ -239,7 +239,7 @@
                         "name":  "명선놀이터 시즌3 · 26.3 테스트",
                         "description":  "Minecraft 26.3 · Fabric 0.19.5",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/server-icon-c54d762b7541aa51.png",
-                        "version":  "1.0.6",
+                        "version":  "1.0.7",
                         "address":  "zzibalworld.kro.kr:25565",
                         "minecraftVersion":  "26.3",
                         "mainServer":  true,
@@ -433,13 +433,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "generated.fabricmod:myeongnol_client:0.90.176-SNAPSHOT@jar",
+                                            "id":  "generated.fabricmod:myeongnol_client:0.90.177-SNAPSHOT@jar",
                                             "name":  "Myeongnol Client",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  252629417,
-                                                             "MD5":  "2f9f48afbacf41a08c698f45a9b8e2bb",
-                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-b9fc2be4b3b81e5bb57a96c4d924acab8fefe20ba5cec18eb3c8f12bba4bfd0f/myeongnol-client-0.90.176-SNAPSHOT-mc26.3.jar"
+                                                             "size":  252629492,
+                                                             "MD5":  "d48ac8eef5ffe94885a3ede06fa2f2c1",
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-510238b4b36ec5621c7b5bb08adc099a3fa79840a3c98546ac0ea7263661169d/myeongnol-client-0.90.177-SNAPSHOT-mc26.3.jar"
                                                          }
                                         },
                                         {
