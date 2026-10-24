@@ -239,7 +239,7 @@
                         "name":  "명선놀이터 시즌3 · 26.3 테스트",
                         "description":  "Minecraft 26.3 · Fabric 0.19.5",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/server-icon-c54d762b7541aa51.png",
-                        "version":  "1.0.17",
+                        "version":  "1.0.18",
                         "address":  "zzibalworld.kro.kr:25565",
                         "minecraftVersion":  "26.3",
                         "mainServer":  true,
@@ -413,16 +413,6 @@
                                                          }
                                         },
                                         {
-                                            "id":  "generated.fabricmod:myeongnol_client:0.90.188-SNAPSHOT@jar",
-                                            "name":  "Myeongnol Client",
-                                            "type":  "FabricMod",
-                                            "artifact":  {
-                                                             "size":  275913590,
-                                                             "MD5":  "51086a2523cd1d0d7a7eb4a01a68df33",
-                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-6c28358b0c2325ae62db7a245c29bd5ebfdc4d89a3b590666735ad55e710fee2/myeongnol-client-0.90.188-SNAPSHOT-mc26.3.jar"
-                                                         }
-                                        },
-                                        {
                                             "id":  "generated.fabricmod:plasmovoice:2.1.17+myeongnol.6@jar",
                                             "name":  "Plasmo Voice · 명놀 파티",
                                             "type":  "FabricMod",
@@ -450,6 +440,16 @@
                                                              "size":  1908068,
                                                              "MD5":  "cdb88a33f405f700021f24274e2ab852",
                                                              "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/fabricmods/required/sodium-fabric-0.9.2%2Bmc26.3.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "generated.fabricmod:myeongnol_client:0.90.189-SNAPSHOT@jar",
+                                            "name":  "Myeongnol Client",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  275973230,
+                                                             "MD5":  "bde687fedd96a4b46de04b59a035739b",
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-7938fa11f2dbeab594ea32b2679004f3e08487dbf564fb46ee0c662751b19725/myeongnol-client-0.90.189-SNAPSHOT-mc26.3.jar"
                                                          }
                                         },
                                         {
