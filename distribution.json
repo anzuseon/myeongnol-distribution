@@ -239,7 +239,7 @@
                         "name":  "명선놀이터 시즌3 · 26.3 테스트",
                         "description":  "Minecraft 26.3 · Fabric 0.19.5",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/server-icon-c54d762b7541aa51.png",
-                        "version":  "1.0.12",
+                        "version":  "1.0.13",
                         "address":  "zzibalworld.kro.kr:25565",
                         "minecraftVersion":  "26.3",
                         "mainServer":  true,
@@ -333,6 +333,16 @@
                                                            ]
                                         },
                                         {
+                                            "id":  "generated.fabricmod:carryon:2.12.0@jar",
+                                            "name":  "Carry On",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  380137,
+                                                             "MD5":  "a6cfd84b1bc45793d7db0158178e3b5f",
+                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/fabricmods/required/carryon-fabric-26.3-2.12.0.jar"
+                                                         }
+                                        },
+                                        {
                                             "id":  "generated.fabricmod:emotecraft:3.5.0-a.build.171@jar",
                                             "name":  "Emotecraft",
                                             "type":  "FabricMod",
@@ -403,16 +413,6 @@
                                                          }
                                         },
                                         {
-                                            "id":  "generated.fabricmod:myeongnol_client:0.90.182-SNAPSHOT@jar",
-                                            "name":  "Myeongnol Client",
-                                            "type":  "FabricMod",
-                                            "artifact":  {
-                                                             "size":  271861651,
-                                                             "MD5":  "f654a122e898ab7e4e2ed8564b6ecd12",
-                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-971ab2710777fdad9899cc646ea204ed1e91c15d3cb6ecd7cdafda3f2610a859/myeongnol-client-0.90.182-SNAPSHOT-mc26.3.jar"
-                                                         }
-                                        },
-                                        {
                                             "id":  "generated.fabricmod:plasmovoice:2.1.17+myeongnol.6@jar",
                                             "name":  "Plasmo Voice · 명놀 파티",
                                             "type":  "FabricMod",
@@ -443,13 +443,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "generated.fabricmod:carryon:2.12.0@jar",
-                                            "name":  "Carry On",
+                                            "id":  "generated.fabricmod:myeongnol_client:0.90.184-SNAPSHOT@jar",
+                                            "name":  "Myeongnol Client",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  380137,
-                                                             "MD5":  "a6cfd84b1bc45793d7db0158178e3b5f",
-                                                             "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/fabricmods/required/carryon-fabric-26.3-2.12.0.jar"
+                                                             "size":  271925076,
+                                                             "MD5":  "12420858ed744c0f00ac6095ac078c69",
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-6baf61857eade44fe24a7f89921de8a42ce05ebaac385f29915956cfa77b071c/myeongnol-client-0.90.184-SNAPSHOT-mc26.3.jar"
                                                          }
                                         },
                                         {
