@@ -1,7 +1,1 @@
-{
-    "schemaVersion":  1,
-    "background":  {
-                       "url":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/launcher/backgrounds/4ed26841b2f02a65e5b6527a95f26920f752c5f1c02edc12d0694178a12d8ed2.png",
-                       "sha256":  "4ed26841b2f02a65e5b6527a95f26920f752c5f1c02edc12d0694178a12d8ed2"
-                   }
-}
+{"schemaVersion":1,"background":{"url":"https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/launcher/backgrounds/a839c6f9ca58febed7657281f5ee8427b3ced5df2b996767545e6d1f4dc132ef.png","sha256":"a839c6f9ca58febed7657281f5ee8427b3ced5df2b996767545e6d1f4dc132ef"}}
