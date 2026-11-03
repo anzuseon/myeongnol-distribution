@@ -7,7 +7,7 @@
                         "name":  "명선놀이터 시즌3 · 26.3",
                         "description":  "Minecraft 26.3 · Fabric 0.19.5",
                         "icon":  "https://raw.githubusercontent.com/anzuseon/myeongnol-distribution/main/servers/Myeongnol-Test-26.3/server-icon-c54d762b7541aa51.png",
-                        "version":  "1.0.57",
+                        "version":  "1.0.58",
                         "address":  "zzibalworld.kro.kr:25565",
                         "minecraftVersion":  "26.3",
                         "mainServer":  true,
@@ -201,13 +201,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "generated.fabricmod:myeongnol_client:0.90.284-SNAPSHOT@jar",
+                                            "id":  "generated.fabricmod:myeongnol_client:0.90.289-SNAPSHOT@jar",
                                             "name":  "Myeongnol Client",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  292650524,
-                                                             "MD5":  "a2e7af474114d5f3c0518071431dd095",
-                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-51458462ed883246e4666347aa16accfd848670f14fa181d4441b98c3b69bfa9/myeongnol-client-0.90.284-SNAPSHOT-mc26.3.jar"
+                                                             "size":  292710507,
+                                                             "MD5":  "94c7bfa7fbb72163e9fe339ff6678bdc",
+                                                             "url":  "https://github.com/anzuseon/myeongnol-distribution/releases/download/artifact-1823ae8cfebe92ff374b82d369b704eb7524532b6a90a06c29c8e3a717a60e60/myeongnol-client-0.90.289-SNAPSHOT-mc26.3.jar"
                                                          }
                                         },
                                         {
